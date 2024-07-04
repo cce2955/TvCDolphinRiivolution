@@ -23,11 +23,15 @@ Riivolution
 ├── readme.txt
 └── TVCUAS.xml
 ```
+![dolphin 2](https://github.com/cce2955/TvCDolphinRiivolution/assets/44739551/e5e2ea7d-e532-463a-8799-ec422222b5f4)
+
 
 For this folder, you're done.
 
 4. Next, go up one folder to `Dolphin Emulator\Load`.
 5. Inside here, create a new folder called `TVCUAS`. Once that folder is made, you're done with the setup.
+   ![dolphin 1](https://github.com/cce2955/TvCDolphinRiivolution/assets/44739551/bd45d2a9-46b1-41e2-9958-d36d650a756d)
+
 
 ## Step 2: Setting up Music
 
