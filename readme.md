@@ -1,4 +1,6 @@
-# Setup Guide
+# TvC Custom Music Setup Guide
+
+**Note:** This code was not made by me. It was recovered from a [SRK forum post made by Keits and code provided by MGF](https://archive.supercombo.gg/t/id-like-to-replace-the-music-on-the-tvc-disc-anyone-want-to-help-figure-this-out/91217/116?page=5).
 
 ## Step 1: Initial Setup
 
@@ -12,7 +14,7 @@ Inside the zip file, you'll find two folders: `Riivolution` and `Tutorial second
 
 The structure inside should look like this:
 
-```
+@@@
 Riivolution
 ├── config (Folder)
 ├── boot.elf
@@ -20,7 +22,7 @@ Riivolution
 ├── meta.xml
 ├── readme.txt
 └── TVCUAS.xml
-```
+@@@
 
 For this folder, you're done.
 
