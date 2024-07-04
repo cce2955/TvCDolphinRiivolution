@@ -61,3 +61,12 @@ For this folder, you're done.
 4. Start the game.
 
 If done correctly you have custom music running.
+## FAQ
+
+### 1. Why are my .brstm files making a horrible scratching sound?
+
+If your .brstm files are all under 50KB, they can't hold any data, resulting in a horrible scratching sound. This can happen if your music source didn't label the "length" variable in the file properties. Make sure to assign a length to your files, and the .brstm files should load normally.
+
+### 2. Why is the sound staticy?
+
+Ensure that you transfer the `bgm.srt` file from the `Tutorial 2nd\BCSM-GUIv1.5\library` folder to the `Documents\Dolphin Emulator\Load\TVCUAS` folder. This file is necessary for proper playback of your custom music.
