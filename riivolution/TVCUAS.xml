@@ -1,0 +1,16 @@
+<wiidisc version="1">
+	<id game="STK" />
+	<options>
+		<section name="CUSTOM">
+			<option name="TVCUAS Custom Music">
+				<choice name="Enabled">
+					<patch id="TVCUASFOLDER" />
+				</choice>
+			</option>
+		</section>
+	</options>
+	<patch id="TVCUASFOLDER">
+		<folder external="/TVCUAS" recursive="true" />
+		<folder external="/TVCUAS" disc="/" />
+	</patch>
+</wiidisc>
