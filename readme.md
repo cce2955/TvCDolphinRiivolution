@@ -14,7 +14,7 @@ Inside the zip file, you'll find two folders: `Riivolution` and `Tutorial second
 
 The structure inside should look like this:
 
-@@@
+```
 Riivolution
 ├── config (Folder)
 ├── boot.elf
@@ -22,7 +22,7 @@ Riivolution
 ├── meta.xml
 ├── readme.txt
 └── TVCUAS.xml
-@@@
+```
 
 For this folder, you're done.
 
