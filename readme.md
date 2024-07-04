@@ -70,3 +70,16 @@ If your .brstm files are all under 50KB, they can't hold any data, resulting in 
 ### 2. Why is the sound staticy?
 
 Ensure that you transfer the `bgm.srt` file from the `Tutorial 2nd\BCSM-GUIv1.5\library` folder to the `Documents\Dolphin Emulator\Load\TVCUAS` folder. This file is necessary for proper playback of your custom music.
+
+### 3. How do I loop a track?
+
+To loop a track, the program checks for samples to determine the loop start and end points. Here's how to find and set these points using Audacity:
+
+1. **Open your audio file in Audacity.**
+2. **Select the portion you want to loop.** Click and drag to highlight the section of the track you want to loop.
+3. **Find the sample points.** With the section highlighted, look at the bottom of the Audacity window. You'll see the start and end points in samples. Note these numbers down.
+4. **Set loop points.** Go to `Edit` > `Labels` > `Add Label at Selection`. This will create a label track. Double-click the new label to edit it, and enter the sample numbers for the start and end points.
+5. **Export the looped section.** Once you have your loop points set, export the file as a .wav or .mp3.
+6. **Convert to BRSTM.** Use the BCSM-GUI tool to convert your file to .brstm, and the tool will recognize the loop points during the conversion.
+
+By following these steps, you'll ensure that your custom track loops seamlessly in the game.
