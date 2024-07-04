@@ -4,7 +4,7 @@
 
 ## Step 1: Initial Setup
 
-Inside the zip file, you'll find two folders: `Riivolution` and `Tutorial second`.
+Inside the zip file, you'll find two folders: `Riivolution` and `Tutorial 2nd`.
 
 ### Setting up the Riivolution folder:
 
