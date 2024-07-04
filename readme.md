@@ -55,4 +55,4 @@ For this folder, you're done.
 3. Ensure that custom music is enabled.
 4. Start the game.
 
-You're all set! Enjoy your custom music in TvC.
+If done correctly you have custom music running.
