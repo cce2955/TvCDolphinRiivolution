@@ -63,16 +63,15 @@ For this folder, you're done.
 If done correctly you have custom music running.
 ## FAQ
 
-### 1. Why are my .brstm files making a horrible scratching sound?
+### 1. Why is my sound clipping, "Static"-like or sounding "slow"?
+The issue of sound clipping or sounding slow is often due to the `bgm.srt` file being out of sync with the playlist. When updating via `start.bat`, it keeps a record of each `.ssd` and syncs across them. If you update the songs and don't replace it with the new `.srt` or have an `.srt` from a different playlist, it can cause these errors.
 
+Alternatively Ensure that you transfer the `bgm.srt` file from the `Tutorial 2nd\BCSM-GUIv1.5\library` folder to the `Documents\Dolphin Emulator\Load\TVCUAS` folder. This file is necessary for proper playback of your custom music.
+
+### 2. Why are my .brstm files making a horrible scratching sound?
 If your .brstm files are all under 50KB, they can't hold any data, resulting in a horrible scratching sound. This can happen if your music source didn't label the "length" variable in the file properties. Make sure to assign a length to your files, and the .brstm files should load normally.
 
-### 2. Why is the sound staticy?
-
-Ensure that you transfer the `bgm.srt` file from the `Tutorial 2nd\BCSM-GUIv1.5\library` folder to the `Documents\Dolphin Emulator\Load\TVCUAS` folder. This file is necessary for proper playback of your custom music.
-
 ### 3. How do I loop a track?
-
 To loop a track, the program checks for samples to determine the loop start and end points. Here's how to find and set these points using Audacity:
 
 1. **Open your audio file in Audacity.**
