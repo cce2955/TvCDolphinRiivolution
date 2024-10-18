@@ -82,3 +82,7 @@ To loop a track, the program checks for samples to determine the loop start and 
 6. **Convert to BRSTM.** Use the BCSM-GUI tool to convert your file to .brstm, and the tool will recognize the loop points during the conversion.
 
 By following these steps, you'll ensure that your custom track loops seamlessly in the game.
+
+### 4. ERROR: Cannot open tmp/C12R.dsp for reading!
+
+In the same directory as BCSM-GUI.exe create an empty folder called "tmp"
